@@ -1,5 +1,6 @@
-# ipLookup
-python IP lookup tool ported from project in lab working with honey pot, previously spun off into LAP Web App with reverse proxy and html5 web interface. This version is portable done in python, can be used with files entirely or STDIN/STDOUT
+# Mass IP Lookup
+
+Python 3 based Mass IP lookup tool for location, disposition, or provider
 
 Welcome to the mass IP lookup! Please follow the configuration options, and submit a list, or file with IP addresses!
 
@@ -17,3 +18,9 @@ Options:
 8.8.8.8 country=US      asn=15169, isp=GOOGLE
 4.4.4.4 country=US      asn=3356, isp=LEVEL3
 127.0.0.1       country=None    asn=None, isp=None
+
+
+python IP lookup tool ported from project in lab working with honey pot, previously spun off into LAP Web App with reverse proxy and html5 web interface. This version is portable done in python, can be used with files entirely or STDIN/STDOUT. Can rotate through API keys, or introduce a sleep for totally legitimate purposes, and not to avoid rate limiting or anything ;)
+
+Basically no external dependencies.
+May need requests, but should come standard in Pyth 3
